@@ -1,0 +1,12 @@
+# Keypairs, wallets and credentials must never be committed.
+*.json
+!.makefun/*.json
+!package.json
+!tsconfig.json
+!competition.json
+!kit.json
+*.pem
+*.key
+__pycache__/
+*.pyc
+/output/
